@@ -2,7 +2,10 @@ VPRubberMenu
 ============
 
 UICollectionView - Menu component with 'rubbery' effect inspired by Nike 'Making' application.
-Created just for fun :)
+*Created just for fun :)*
+
+![Screenshot](doc/img/VPRubber.gif "doc/img/VPRubber.gif")
+![Screenshot](doc/img/ScreenShot 1.png "doc/img/ScreenShot 1.png")
 
 Usage
 ============
