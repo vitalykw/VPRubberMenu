@@ -28,22 +28,7 @@
 		349187D519347D840065A912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349187D319347D840065A912 /* Main.storyboard */; };
 		349187D819347D840065A912 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349187D719347D840065A912 /* ViewController.m */; };
 		349187DA19347D840065A912 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349187D919347D840065A912 /* Images.xcassets */; };
-		349187E119347D840065A912 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187E019347D840065A912 /* XCTest.framework */; };
-		349187E219347D840065A912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C119347D840065A912 /* Foundation.framework */; };
-		349187E319347D840065A912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C519347D840065A912 /* UIKit.framework */; };
-		349187EB19347D840065A912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 349187E919347D840065A912 /* InfoPlist.strings */; };
-		349187ED19347D840065A912 /* VPRubberTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349187EC19347D840065A912 /* VPRubberTableTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		349187E419347D840065A912 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 349187B619347D840065A912 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 349187BD19347D840065A912;
-			remoteInfo = VPRubberTable;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		348E28841935FFE300B21EF0 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
@@ -75,7 +60,6 @@
 		349187D619347D840065A912 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		349187D719347D840065A912 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		349187D919347D840065A912 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		349187DF19347D840065A912 /* VPRubberTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPRubberTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		349187E019347D840065A912 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		349187E819347D840065A912 /* VPRubberTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPRubberTableTests-Info.plist"; sourceTree = "<group>"; };
 		349187EA19347D840065A912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -90,16 +74,6 @@
 				349187C419347D840065A912 /* CoreGraphics.framework in Frameworks */,
 				349187C619347D840065A912 /* UIKit.framework in Frameworks */,
 				349187C219347D840065A912 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		349187DC19347D840065A912 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				349187E119347D840065A912 /* XCTest.framework in Frameworks */,
-				349187E319347D840065A912 /* UIKit.framework in Frameworks */,
-				349187E219347D840065A912 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				349187BE19347D840065A912 /* VPRubberTable.app */,
-				349187DF19347D840065A912 /* VPRubberTableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,24 +203,6 @@
 			productReference = 349187BE19347D840065A912 /* VPRubberTable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		349187DE19347D840065A912 /* VPRubberTableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 349187F319347D840065A912 /* Build configuration list for PBXNativeTarget "VPRubberTableTests" */;
-			buildPhases = (
-				349187DB19347D840065A912 /* Sources */,
-				349187DC19347D840065A912 /* Frameworks */,
-				349187DD19347D840065A912 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				349187E519347D840065A912 /* PBXTargetDependency */,
-			);
-			name = VPRubberTableTests;
-			productName = VPRubberTableTests;
-			productReference = 349187DF19347D840065A912 /* VPRubberTableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,11 +211,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Vitaliy Popruzhenko";
-				TargetAttributes = {
-					349187DE19347D840065A912 = {
-						TestTargetID = 349187BD19347D840065A912;
-					};
-				};
 			};
 			buildConfigurationList = 349187B919347D840065A912 /* Build configuration list for PBXProject "VPRubberTable" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -276,7 +226,6 @@
 			projectRoot = "";
 			targets = (
 				349187BD19347D840065A912 /* VPRubberTable */,
-				349187DE19347D840065A912 /* VPRubberTableTests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,14 +251,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		349187DD19347D840065A912 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				349187EB19347D840065A912 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -325,23 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		349187DB19347D840065A912 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				349187ED19347D840065A912 /* VPRubberTableTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		349187E519347D840065A912 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 349187BD19347D840065A912 /* VPRubberTable */;
-			targetProxy = 349187E419347D840065A912 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		349187CA19347D840065A912 /* InfoPlist.strings */ = {
@@ -467,46 +392,6 @@
 			};
 			name = Release;
 		};
-		349187F419347D840065A912 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPRubberTable.app/VPRubberTable";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VPRubberTable/VPRubberTable-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "VPRubberTableTests/VPRubberTableTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		349187F519347D840065A912 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPRubberTable.app/VPRubberTable";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VPRubberTable/VPRubberTable-Prefix.pch";
-				INFOPLIST_FILE = "VPRubberTableTests/VPRubberTableTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -524,15 +409,6 @@
 			buildConfigurations = (
 				349187F119347D840065A912 /* Debug */,
 				349187F219347D840065A912 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		349187F319347D840065A912 /* Build configuration list for PBXNativeTarget "VPRubberTableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				349187F419347D840065A912 /* Debug */,
-				349187F519347D840065A912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

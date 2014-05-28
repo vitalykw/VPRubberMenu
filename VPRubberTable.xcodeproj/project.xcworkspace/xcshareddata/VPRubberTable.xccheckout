@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BFC2E6F3-208E-49A2-B14B-3FC419DB68AF</string>
+	<string>E961AD1E-5EDD-4730-AB0D-C32C85B76E4C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>VPRubberTable</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6609394C-227A-4A82-9756-99F9249D1006</key>
-		<string>https://github.com/vitalykw/VPRubberTable.git</string>
+		<key>EC5B6A74-D45D-4967-83A3-43C785E53607</key>
+		<string>https://github.com/vitalykw/VPRubberMenu.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>VPRubberTable.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6609394C-227A-4A82-9756-99F9249D1006</key>
+		<key>EC5B6A74-D45D-4967-83A3-43C785E53607</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/vitalykw/VPRubberTable.git</string>
+	<string>https://github.com/vitalykw/VPRubberMenu.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6609394C-227A-4A82-9756-99F9249D1006</string>
+	<string>EC5B6A74-D45D-4967-83A3-43C785E53607</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6609394C-227A-4A82-9756-99F9249D1006</string>
+			<string>EC5B6A74-D45D-4967-83A3-43C785E53607</string>
 			<key>IDESourceControlWCCName</key>
-			<string>VPRubberTable</string>
+			<string>VPRubberMenu</string>
 		</dict>
 	</array>
 </dict>
