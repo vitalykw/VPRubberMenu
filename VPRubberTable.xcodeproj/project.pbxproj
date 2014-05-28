@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348E288E1935FFE300B21EF0 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E28841935FFE300B21EF0 /* icon1.png */; };
+		348E288F1935FFE300B21EF0 /* icon10.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E28851935FFE300B21EF0 /* icon10.png */; };
+		348E28901935FFE300B21EF0 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E28861935FFE300B21EF0 /* icon2.png */; };
+		348E28911935FFE300B21EF0 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E28871935FFE300B21EF0 /* icon3.png */; };
+		348E28921935FFE300B21EF0 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E28881935FFE300B21EF0 /* icon4.png */; };
+		348E28931935FFE300B21EF0 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E28891935FFE300B21EF0 /* icon5.png */; };
+		348E28941935FFE300B21EF0 /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E288A1935FFE300B21EF0 /* icon6.png */; };
+		348E28951935FFE300B21EF0 /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E288B1935FFE300B21EF0 /* icon7.png */; };
+		348E28961935FFE300B21EF0 /* icon8.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E288C1935FFE300B21EF0 /* icon8.png */; };
+		348E28971935FFE300B21EF0 /* icon9.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E288D1935FFE300B21EF0 /* icon9.png */; };
+		348E28A11936062F00B21EF0 /* VPRubberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 348E289D1936062F00B21EF0 /* VPRubberCell.m */; };
+		348E28A21936062F00B21EF0 /* VPRubberLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 348E289F1936062F00B21EF0 /* VPRubberLayout.m */; };
+		349187C219347D840065A912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C119347D840065A912 /* Foundation.framework */; };
+		349187C419347D840065A912 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C319347D840065A912 /* CoreGraphics.framework */; };
+		349187C619347D840065A912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C519347D840065A912 /* UIKit.framework */; };
+		349187CC19347D840065A912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 349187CA19347D840065A912 /* InfoPlist.strings */; };
+		349187CE19347D840065A912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349187CD19347D840065A912 /* main.m */; };
+		349187D219347D840065A912 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349187D119347D840065A912 /* AppDelegate.m */; };
+		349187D519347D840065A912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349187D319347D840065A912 /* Main.storyboard */; };
+		349187D819347D840065A912 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349187D719347D840065A912 /* ViewController.m */; };
+		349187DA19347D840065A912 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349187D919347D840065A912 /* Images.xcassets */; };
+		349187E119347D840065A912 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187E019347D840065A912 /* XCTest.framework */; };
+		349187E219347D840065A912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C119347D840065A912 /* Foundation.framework */; };
+		349187E319347D840065A912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349187C519347D840065A912 /* UIKit.framework */; };
+		349187EB19347D840065A912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 349187E919347D840065A912 /* InfoPlist.strings */; };
+		349187ED19347D840065A912 /* VPRubberTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 349187EC19347D840065A912 /* VPRubberTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349187E419347D840065A912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349187B619347D840065A912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349187BD19347D840065A912;
+			remoteInfo = VPRubberTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		348E28841935FFE300B21EF0 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		348E28851935FFE300B21EF0 /* icon10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon10.png; sourceTree = "<group>"; };
+		348E28861935FFE300B21EF0 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		348E28871935FFE300B21EF0 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		348E28881935FFE300B21EF0 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		348E28891935FFE300B21EF0 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		348E288A1935FFE300B21EF0 /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		348E288B1935FFE300B21EF0 /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		348E288C1935FFE300B21EF0 /* icon8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon8.png; sourceTree = "<group>"; };
+		348E288D1935FFE300B21EF0 /* icon9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon9.png; sourceTree = "<group>"; };
+		348E289C1936062F00B21EF0 /* VPRubberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPRubberCell.h; sourceTree = "<group>"; };
+		348E289D1936062F00B21EF0 /* VPRubberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPRubberCell.m; sourceTree = "<group>"; };
+		348E289E1936062F00B21EF0 /* VPRubberLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPRubberLayout.h; sourceTree = "<group>"; };
+		348E289F1936062F00B21EF0 /* VPRubberLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPRubberLayout.m; sourceTree = "<group>"; };
+		348E28A01936062F00B21EF0 /* VPRubberSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPRubberSettings.h; sourceTree = "<group>"; };
+		349187BE19347D840065A912 /* VPRubberTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPRubberTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349187C119347D840065A912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		349187C319347D840065A912 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		349187C519347D840065A912 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		349187C919347D840065A912 /* VPRubberTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPRubberTable-Info.plist"; sourceTree = "<group>"; };
+		349187CB19347D840065A912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		349187CD19347D840065A912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		349187CF19347D840065A912 /* VPRubberTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPRubberTable-Prefix.pch"; sourceTree = "<group>"; };
+		349187D019347D840065A912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		349187D119347D840065A912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		349187D419347D840065A912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		349187D619347D840065A912 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		349187D719347D840065A912 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		349187D919347D840065A912 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		349187DF19347D840065A912 /* VPRubberTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPRubberTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349187E019347D840065A912 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		349187E819347D840065A912 /* VPRubberTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPRubberTableTests-Info.plist"; sourceTree = "<group>"; };
+		349187EA19347D840065A912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		349187EC19347D840065A912 /* VPRubberTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPRubberTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349187BB19347D840065A912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349187C419347D840065A912 /* CoreGraphics.framework in Frameworks */,
+				349187C619347D840065A912 /* UIKit.framework in Frameworks */,
+				349187C219347D840065A912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349187DC19347D840065A912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349187E119347D840065A912 /* XCTest.framework in Frameworks */,
+				349187E319347D840065A912 /* UIKit.framework in Frameworks */,
+				349187E219347D840065A912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348E28831935FFE300B21EF0 /* IconSet */ = {
+			isa = PBXGroup;
+			children = (
+				348E28841935FFE300B21EF0 /* icon1.png */,
+				348E28851935FFE300B21EF0 /* icon10.png */,
+				348E28861935FFE300B21EF0 /* icon2.png */,
+				348E28871935FFE300B21EF0 /* icon3.png */,
+				348E28881935FFE300B21EF0 /* icon4.png */,
+				348E28891935FFE300B21EF0 /* icon5.png */,
+				348E288A1935FFE300B21EF0 /* icon6.png */,
+				348E288B1935FFE300B21EF0 /* icon7.png */,
+				348E288C1935FFE300B21EF0 /* icon8.png */,
+				348E288D1935FFE300B21EF0 /* icon9.png */,
+			);
+			path = IconSet;
+			sourceTree = "<group>";
+		};
+		348E289B1936062F00B21EF0 /* VPRubberClasses */ = {
+			isa = PBXGroup;
+			children = (
+				348E289C1936062F00B21EF0 /* VPRubberCell.h */,
+				348E289D1936062F00B21EF0 /* VPRubberCell.m */,
+				348E289E1936062F00B21EF0 /* VPRubberLayout.h */,
+				348E289F1936062F00B21EF0 /* VPRubberLayout.m */,
+				348E28A01936062F00B21EF0 /* VPRubberSettings.h */,
+			);
+			path = VPRubberClasses;
+			sourceTree = SOURCE_ROOT;
+		};
+		349187B519347D840065A912 = {
+			isa = PBXGroup;
+			children = (
+				348E289B1936062F00B21EF0 /* VPRubberClasses */,
+				349187C719347D840065A912 /* VPRubberTable */,
+				349187E619347D840065A912 /* VPRubberTableTests */,
+				349187C019347D840065A912 /* Frameworks */,
+				349187BF19347D840065A912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349187BF19347D840065A912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349187BE19347D840065A912 /* VPRubberTable.app */,
+				349187DF19347D840065A912 /* VPRubberTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349187C019347D840065A912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349187C119347D840065A912 /* Foundation.framework */,
+				349187C319347D840065A912 /* CoreGraphics.framework */,
+				349187C519347D840065A912 /* UIKit.framework */,
+				349187E019347D840065A912 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349187C719347D840065A912 /* VPRubberTable */ = {
+			isa = PBXGroup;
+			children = (
+				349187D019347D840065A912 /* AppDelegate.h */,
+				349187D119347D840065A912 /* AppDelegate.m */,
+				349187D319347D840065A912 /* Main.storyboard */,
+				349187D619347D840065A912 /* ViewController.h */,
+				349187D719347D840065A912 /* ViewController.m */,
+				349187D919347D840065A912 /* Images.xcassets */,
+				348E28831935FFE300B21EF0 /* IconSet */,
+				349187C819347D840065A912 /* Supporting Files */,
+			);
+			path = VPRubberTable;
+			sourceTree = "<group>";
+		};
+		349187C819347D840065A912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				349187C919347D840065A912 /* VPRubberTable-Info.plist */,
+				349187CA19347D840065A912 /* InfoPlist.strings */,
+				349187CD19347D840065A912 /* main.m */,
+				349187CF19347D840065A912 /* VPRubberTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		349187E619347D840065A912 /* VPRubberTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				349187EC19347D840065A912 /* VPRubberTableTests.m */,
+				349187E719347D840065A912 /* Supporting Files */,
+			);
+			path = VPRubberTableTests;
+			sourceTree = "<group>";
+		};
+		349187E719347D840065A912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				349187E819347D840065A912 /* VPRubberTableTests-Info.plist */,
+				349187E919347D840065A912 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349187BD19347D840065A912 /* VPRubberTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349187F019347D840065A912 /* Build configuration list for PBXNativeTarget "VPRubberTable" */;
+			buildPhases = (
+				349187BA19347D840065A912 /* Sources */,
+				349187BB19347D840065A912 /* Frameworks */,
+				349187BC19347D840065A912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPRubberTable;
+			productName = VPRubberTable;
+			productReference = 349187BE19347D840065A912 /* VPRubberTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349187DE19347D840065A912 /* VPRubberTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349187F319347D840065A912 /* Build configuration list for PBXNativeTarget "VPRubberTableTests" */;
+			buildPhases = (
+				349187DB19347D840065A912 /* Sources */,
+				349187DC19347D840065A912 /* Frameworks */,
+				349187DD19347D840065A912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349187E519347D840065A912 /* PBXTargetDependency */,
+			);
+			name = VPRubberTableTests;
+			productName = VPRubberTableTests;
+			productReference = 349187DF19347D840065A912 /* VPRubberTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349187B619347D840065A912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vitaliy Popruzhenko";
+				TargetAttributes = {
+					349187DE19347D840065A912 = {
+						TestTargetID = 349187BD19347D840065A912;
+					};
+				};
+			};
+			buildConfigurationList = 349187B919347D840065A912 /* Build configuration list for PBXProject "VPRubberTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349187B519347D840065A912;
+			productRefGroup = 349187BF19347D840065A912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349187BD19347D840065A912 /* VPRubberTable */,
+				349187DE19347D840065A912 /* VPRubberTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349187BC19347D840065A912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348E28971935FFE300B21EF0 /* icon9.png in Resources */,
+				349187DA19347D840065A912 /* Images.xcassets in Resources */,
+				348E28921935FFE300B21EF0 /* icon4.png in Resources */,
+				348E28951935FFE300B21EF0 /* icon7.png in Resources */,
+				349187CC19347D840065A912 /* InfoPlist.strings in Resources */,
+				348E28941935FFE300B21EF0 /* icon6.png in Resources */,
+				348E28961935FFE300B21EF0 /* icon8.png in Resources */,
+				348E28911935FFE300B21EF0 /* icon3.png in Resources */,
+				348E288E1935FFE300B21EF0 /* icon1.png in Resources */,
+				349187D519347D840065A912 /* Main.storyboard in Resources */,
+				348E288F1935FFE300B21EF0 /* icon10.png in Resources */,
+				348E28901935FFE300B21EF0 /* icon2.png in Resources */,
+				348E28931935FFE300B21EF0 /* icon5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349187DD19347D840065A912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349187EB19347D840065A912 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349187BA19347D840065A912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349187D819347D840065A912 /* ViewController.m in Sources */,
+				349187D219347D840065A912 /* AppDelegate.m in Sources */,
+				348E28A21936062F00B21EF0 /* VPRubberLayout.m in Sources */,
+				349187CE19347D840065A912 /* main.m in Sources */,
+				348E28A11936062F00B21EF0 /* VPRubberCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349187DB19347D840065A912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349187ED19347D840065A912 /* VPRubberTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349187E519347D840065A912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349187BD19347D840065A912 /* VPRubberTable */;
+			targetProxy = 349187E419347D840065A912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		349187CA19347D840065A912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349187CB19347D840065A912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		349187D319347D840065A912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349187D419347D840065A912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		349187E919347D840065A912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349187EA19347D840065A912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349187EE19347D840065A912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		349187EF19347D840065A912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349187F119347D840065A912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPRubberTable/VPRubberTable-Prefix.pch";
+				INFOPLIST_FILE = "VPRubberTable/VPRubberTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		349187F219347D840065A912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPRubberTable/VPRubberTable-Prefix.pch";
+				INFOPLIST_FILE = "VPRubberTable/VPRubberTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		349187F419347D840065A912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPRubberTable.app/VPRubberTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPRubberTable/VPRubberTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VPRubberTableTests/VPRubberTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		349187F519347D840065A912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPRubberTable.app/VPRubberTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPRubberTable/VPRubberTable-Prefix.pch";
+				INFOPLIST_FILE = "VPRubberTableTests/VPRubberTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349187B919347D840065A912 /* Build configuration list for PBXProject "VPRubberTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349187EE19347D840065A912 /* Debug */,
+				349187EF19347D840065A912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349187F019347D840065A912 /* Build configuration list for PBXNativeTarget "VPRubberTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349187F119347D840065A912 /* Debug */,
+				349187F219347D840065A912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349187F319347D840065A912 /* Build configuration list for PBXNativeTarget "VPRubberTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349187F419347D840065A912 /* Debug */,
+				349187F519347D840065A912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349187B619347D840065A912 /* Project object */;
+}
