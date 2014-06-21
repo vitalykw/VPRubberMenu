@@ -23,7 +23,7 @@ Authors
 
 Credits
 =======
-+ Inspired by [https://itunes.apple.com/us/app/making-making-powered-by-nike/id662227880?mt=8](Making of Making Powered by NIKE MSI)
+Inspired by [Making of Making Powered by NIKE MSI](https://itunes.apple.com/us/app/making-making-powered-by-nike/id662227880?mt=8)
 
 ## License:
 Licensed under the MIT license
