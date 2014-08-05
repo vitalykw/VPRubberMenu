@@ -12,7 +12,8 @@
 @interface VPRubberCell : UICollectionViewCell {
     CGFloat heightNew;
 }
-@property (weak, nonatomic) IBOutlet UIImageView *iconView;
+//@property (weak, nonatomic) IBOutlet UIImageView *iconView;
+@property (strong, nonatomic) UIImageView *iconView;
 
 - (void)setNewHeight:(CGFloat)h;
 
