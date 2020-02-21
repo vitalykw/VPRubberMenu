@@ -12,6 +12,37 @@
 
 @implementation VPRubberCell
 
+-(id) initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    
+    if(self){
+        // custom initialization
+        [self setup];
+    }
+    
+    return self;
+}
+
+-(id) initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    
+    if(self){
+        // custom initialization
+        [self setup];
+    }
+    
+    return self;
+}
+
+-(void) setup
+{
+    self.iconView = [[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width/2, self.frame.size.height/2, 25, 25)];
+    self.iconView.center = self.center;
+    [self addSubview:_iconView];
+}
+
 -(void)setNewHeight:(CGFloat)h{
     if (h > MAX_H){
         heightNew = MAX_H;
